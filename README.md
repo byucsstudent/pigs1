@@ -1,12 +1,8 @@
-<p align="center">
-<img src="https://raw.githubusercontent.com/csinstructiontemplate/emptycourse/refs/heads/main/byulogo.png" alt="BYU Logo" width="200"/>
-</p>
+![BYU Logo](https://raw.githubusercontent.com/csinstructiontemplate/emptycourse/refs/heads/main/byulogo.png)
 
 # Pigs in Space
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/csinstructiontemplate/emptycourse/refs/heads/main/cover.jpg" alt="Pigs in Space Cover" width="400"/>
-</p>
+![Course Cover](https://raw.githubusercontent.com/csinstructiontemplate/emptycourse/refs/heads/main/cover.jpg)
 
 Get ready to blast off into a hilarious and insightful exploration of American culture! Buckle your seatbelts, cadets, because we're taking a trip aboard the Swinetrek with Miss Piggy, Link Hogthrob, and Dr. Julius Strangepork in "Pigs in Space"! This isn't just a course about zany Muppets antics; it's a deep dive into the heart of American identity, communication styles, and societal norms. We'll use the intergalactic adventures of our porcine protagonists to uncover hidden meanings and explore the complex tapestry of American culture.
 
