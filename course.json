@@ -1,144 +1,731 @@
 {
   "title": "pigs in space",
-  "description": "This course uses the muppet movie **Pigs in Space** to demonstrate cultural differences in the United States, exploring themes of identity, communication, and societal norms through the lens of the Swinetrek crew's intergalactic adventures.",
+  "links": {},
   "modules": [
     {
       "title": "Introduction to Pigs in Space and Cultural Studies",
-      "description": "This module introduces the 'Pigs in Space' segment and its characters, setting the stage for analyzing cultural representations and misinterpretations. We will also define key terms in cultural studies.",
       "topics": [
-        { "title": "Overview", "description": "Course introduction and objectives.", "path": "README.md", "type": "instruction", "state": "stable" },
-        { "title": "Introducing Pigs in Space", "description": "A brief history and overview of the 'Pigs in Space' segment within The Muppet Show.", "path": "instruction/introducing-pigs-in-space/introducing-pigs-in-space.md", "type": "instruction", "state": "stub" },
-        { "title": "Key Concepts in Cultural Studies", "description": "Defining culture, identity, stereotypes, and ethnocentrism.", "path": "instruction/key-concepts-in-cultural-studies/key-concepts-in-cultural-studies.md", "type": "instruction", "state": "stub" },
-        { "title": "The Swinetrek Crew: An Introduction", "description": "Getting to know Captain Link Hogthrob, Miss Piggy as First Mate Piggy, and Dr. Julius Strangepork.", "path": "instruction/the-swinetrek-crew-an-introduction/the-swinetrek-crew-an-introduction.md", "type": "instruction", "state": "stub" },
-        { "title": "Space as a Metaphor", "description": "Examining space travel as a metaphor for encountering the 'other' and exploring unknown cultures.", "path": "instruction/space-as-a-metaphor/space-as-a-metaphor.md", "type": "instruction", "state": "stub" },
-        { "title": "Early Episodes: Setting the Stage", "description": "Analyzing the first few 'Pigs in Space' episodes for initial cultural representations.", "path": "instruction/early-episodes-setting-the-stage/early-episodes-setting-the-stage.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Overview",
+          "type": "instruction",
+          "path": "README.md",
+          "id": "ff2c7e53-2e73-45da-8dc0-a9d775baa727",
+          "state": "stable",
+          "description": "Course introduction and objectives.",
+          "commit": "3cb726c0957659de6ad5ee6efb01262404bf6672"
+        },
+        {
+          "title": "Introducing Pigs in Space",
+          "type": "instruction",
+          "path": "instruction/introducing-pigs-in-space/introducing-pigs-in-space.md",
+          "id": "f5b70a0c-283c-425f-be28-ab091aefff1e",
+          "state": "stub",
+          "description": "A brief history and overview of the 'Pigs in Space' segment within The Muppet Show."
+        },
+        {
+          "title": "Key Concepts in Cultural Studies",
+          "type": "instruction",
+          "path": "instruction/key-concepts-in-cultural-studies/key-concepts-in-cultural-studies.md",
+          "id": "a7b0bf8b-fe02-4b5a-ac2e-3bd5b5afc00b",
+          "state": "stub",
+          "description": "Defining culture, identity, stereotypes, and ethnocentrism."
+        },
+        {
+          "title": "The Swinetrek Crew: An Introduction",
+          "type": "instruction",
+          "path": "instruction/the-swinetrek-crew-an-introduction/the-swinetrek-crew-an-introduction.md",
+          "id": "d1091461-c439-467f-921f-9df966f7f79e",
+          "state": "stub",
+          "description": "Getting to know Captain Link Hogthrob, Miss Piggy as First Mate Piggy, and Dr. Julius Strangepork."
+        },
+        {
+          "title": "Space as a Metaphor",
+          "type": "instruction",
+          "path": "instruction/space-as-a-metaphor/space-as-a-metaphor.md",
+          "id": "3b7d9ed2-050e-4ab5-8852-06768cdd3393",
+          "state": "stub",
+          "description": "Examining space travel as a metaphor for encountering the 'other' and exploring unknown cultures."
+        },
+        {
+          "title": "Early Episodes: Setting the Stage",
+          "type": "instruction",
+          "path": "instruction/early-episodes-setting-the-stage/early-episodes-setting-the-stage.md",
+          "id": "0cd0ff0f-4044-4b4e-b729-24800179d348",
+          "state": "stub",
+          "description": "Analyzing the first few 'Pigs in Space' episodes for initial cultural representations."
+        }
       ]
     },
     {
       "title": "Analyzing American Identity Through Piggy",
-      "description": "This module focuses on Miss Piggy and her representation of American ideals and stereotypes, particularly those related to fame, beauty, and ambition.",
       "topics": [
-        { "title": "Piggy as an American Icon", "description": "Exploring Miss Piggy's popularity and her embodiment of certain American values.", "path": "instruction/piggy-as-an-american-icon/piggy-as-an-american-icon.md", "type": "instruction", "state": "stub" },
-        { "title": "Fame and Celebrity Culture", "description": "How Miss Piggy's pursuit of fame reflects American celebrity culture.", "path": "instruction/fame-and-celebrity-culture/fame-and-celebrity-culture.md", "type": "instruction", "state": "stub" },
-        { "title": "Beauty Standards and Representation", "description": "Analyzing Miss Piggy's appearance and how it challenges or reinforces traditional beauty standards.", "path": "instruction/beauty-standards-and-representation/beauty-standards-and-representation.md", "type": "instruction", "state": "stub" },
-        { "title": "Ambition and Success", "description": "Examining Miss Piggy's relentless ambition and what it says about the American Dream.", "path": "instruction/ambition-and-success/ambition-and-success.md", "type": "instruction", "state": "stub" },
-        { "title": "Gender Roles and Expectations", "description": "Analyzing Miss Piggy's character in relation to traditional gender roles and expectations.", "path": "instruction/gender-roles-and-expectations/gender-roles-and-expectations.md", "type": "instruction", "state": "stub" },
-        { "title": "Power Dynamics in the Swinetrek", "description": "The role of Piggy as second in command and how she uses her position.", "path": "instruction/power-dynamics-in-the-swinetrek/power-dynamics-in-the-swinetrek.md", "type": "instruction", "state": "stub" },
-        { "title": "Piggy's Relationships", "description": "Piggy's interactions with Link and Dr. Strangepork.", "path": "instruction/piggys-relationships/piggys-relationships.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Piggy as an American Icon",
+          "type": "instruction",
+          "path": "instruction/piggy-as-an-american-icon/piggy-as-an-american-icon.md",
+          "id": "f28d70f2-b3d2-4a72-9089-b12830e0c456",
+          "state": "stub",
+          "description": "Exploring Miss Piggy's popularity and her embodiment of certain American values."
+        },
+        {
+          "title": "Fame and Celebrity Culture",
+          "type": "instruction",
+          "path": "instruction/fame-and-celebrity-culture/fame-and-celebrity-culture.md",
+          "id": "5e001fcb-d620-46a4-8c12-1cd54395f052",
+          "state": "stub",
+          "description": "How Miss Piggy's pursuit of fame reflects American celebrity culture."
+        },
+        {
+          "title": "Beauty Standards and Representation",
+          "type": "instruction",
+          "path": "instruction/beauty-standards-and-representation/beauty-standards-and-representation.md",
+          "id": "85f12426-6b92-4b8b-bf0d-11c1b774254f",
+          "state": "stub",
+          "description": "Analyzing Miss Piggy's appearance and how it challenges or reinforces traditional beauty standards."
+        },
+        {
+          "title": "Ambition and Success",
+          "type": "instruction",
+          "path": "instruction/ambition-and-success/ambition-and-success.md",
+          "id": "55de7412-8454-4467-a907-b96f9a234968",
+          "state": "stub",
+          "description": "Examining Miss Piggy's relentless ambition and what it says about the American Dream."
+        },
+        {
+          "title": "Gender Roles and Expectations",
+          "type": "instruction",
+          "path": "instruction/gender-roles-and-expectations/gender-roles-and-expectations.md",
+          "id": "f5c88b57-f731-4be2-adb8-8c3fd564ba20",
+          "state": "stub",
+          "description": "Analyzing Miss Piggy's character in relation to traditional gender roles and expectations."
+        },
+        {
+          "title": "Power Dynamics in the Swinetrek",
+          "type": "instruction",
+          "path": "instruction/power-dynamics-in-the-swinetrek/power-dynamics-in-the-swinetrek.md",
+          "id": "b837d297-b49a-47b7-90f8-37e26f316098",
+          "state": "stub",
+          "description": "The role of Piggy as second in command and how she uses her position."
+        },
+        {
+          "title": "Piggy's Relationships",
+          "type": "instruction",
+          "path": "instruction/piggys-relationships/piggys-relationships.md",
+          "id": "bb45ae2a-5181-4757-959b-0cfe6072dab8",
+          "state": "stub",
+          "description": "Piggy's interactions with Link and Dr. Strangepork."
+        }
       ]
     },
     {
       "title": "Link Hogthrob and Masculinity",
-      "description": "This module explores the character of Link Hogthrob and how he embodies and subverts traditional notions of American masculinity.",
       "topics": [
-        { "title": "Link Hogthrob: The All-American Hero?", "description": "Analyzing Link's portrayal as a heroic figure and its connection to American ideals.", "path": "instruction/link-hogthrob-the-all-american-hero/link-hogthrob-the-all-american-hero.md", "type": "instruction", "state": "stub" },
-        { "title": "Stereotypes of Masculinity", "description": "Examining how Link embodies and challenges stereotypes of American masculinity.", "path": "instruction/stereotypes-of-masculinity/stereotypes-of-masculinity.md", "type": "instruction", "state": "stub" },
-        { "title": "Leadership and Responsibility", "description": "Analyzing Link's leadership style and his sense of responsibility towards the Swinetrek crew.", "path": "instruction/leadership-and-responsibility/leadership-and-responsibility.md", "type": "instruction", "state": "stub" },
-        { "title": "Vulnerability and Humor", "description": "Exploring moments where Link displays vulnerability or is the subject of humor, and what this reveals about his character.", "path": "instruction/vulnerability-and-humor/vulnerability-and-humor.md", "type": "instruction", "state": "stub" },
-        { "title": "Link's Relationship with Piggy", "description": "Analyzing the complex dynamics of Link and Piggy's relationship.", "path": "instruction/links-relationship-with-piggy/links-relationship-with-piggy.md", "type": "instruction", "state": "stub" },
-        { "title": "The Evolution of Link's Character", "description": "How Link's character changed through the different episodes.", "path": "instruction/the-evolution-of-links-character/the-evolution-of-links-character.md", "type": "instruction", "state": "stub" },
-        { "title": "Link as a foil", "description": "Examining Link's role as a foil to Piggy's character.", "path": "instruction/link-as-a-foil/link-as-a-foil.md", "type": "instruction", "state": "stub" },
-        { "title": "The role of ego", "description": "Examining how ego drives Link's behavior.", "path": "instruction/the-role-of-ego/the-role-of-ego.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Link Hogthrob: The All-American Hero?",
+          "type": "instruction",
+          "path": "instruction/link-hogthrob-the-all-american-hero/link-hogthrob-the-all-american-hero.md",
+          "id": "da859b92-e0bd-42af-bec1-32731bdd900a",
+          "state": "stub",
+          "description": "Analyzing Link's portrayal as a heroic figure and its connection to American ideals."
+        },
+        {
+          "title": "Stereotypes of Masculinity",
+          "type": "instruction",
+          "path": "instruction/stereotypes-of-masculinity/stereotypes-of-masculinity.md",
+          "id": "d9f26ed2-d4bb-44c2-b496-941959a1490c",
+          "state": "stub",
+          "description": "Examining how Link embodies and challenges stereotypes of American masculinity."
+        },
+        {
+          "title": "Leadership and Responsibility",
+          "type": "instruction",
+          "path": "instruction/leadership-and-responsibility/leadership-and-responsibility.md",
+          "id": "ae7387bc-89dd-4eed-a1dd-7b44e05333c9",
+          "state": "stub",
+          "description": "Analyzing Link's leadership style and his sense of responsibility towards the Swinetrek crew."
+        },
+        {
+          "title": "Vulnerability and Humor",
+          "type": "instruction",
+          "path": "instruction/vulnerability-and-humor/vulnerability-and-humor.md",
+          "id": "580ff896-2565-4fda-9533-0e34e3860c8e",
+          "state": "stub",
+          "description": "Exploring moments where Link displays vulnerability or is the subject of humor, and what this reveals about his character."
+        },
+        {
+          "title": "Link's Relationship with Piggy",
+          "type": "instruction",
+          "path": "instruction/links-relationship-with-piggy/links-relationship-with-piggy.md",
+          "id": "c51463bd-d7d4-4b58-8e73-91f308a1c88c",
+          "state": "stub",
+          "description": "Analyzing the complex dynamics of Link and Piggy's relationship."
+        },
+        {
+          "title": "The Evolution of Link's Character",
+          "type": "instruction",
+          "path": "instruction/the-evolution-of-links-character/the-evolution-of-links-character.md",
+          "id": "87505f0f-a839-4fa2-9d0b-b8ba46677568",
+          "state": "stub",
+          "description": "How Link's character changed through the different episodes."
+        },
+        {
+          "title": "Link as a foil",
+          "type": "instruction",
+          "path": "instruction/link-as-a-foil/link-as-a-foil.md",
+          "id": "0fa0bfdf-fd66-44d2-aa1f-9c34ba8f39bd",
+          "state": "stub",
+          "description": "Examining Link's role as a foil to Piggy's character."
+        },
+        {
+          "title": "The role of ego",
+          "type": "instruction",
+          "path": "instruction/the-role-of-ego/the-role-of-ego.md",
+          "id": "83fbbc65-1a05-4894-80d4-989ea547b5ad",
+          "state": "stub",
+          "description": "Examining how ego drives Link's behavior."
+        }
       ]
     },
     {
       "title": "Dr. Julius Strangepork and Scientific Culture",
-      "description": "This module analyzes Dr. Julius Strangepork and explores how the character represents American attitudes towards science, technology, and expertise.",
       "topics": [
-        { "title": "Strangepork as a Scientist", "description": "Analyzing Strangepork's portrayal as a scientist and its connection to American perceptions of science.", "path": "instruction/strangepork-as-a-scientist/strangepork-as-a-scientist.md", "type": "instruction", "state": "stub" },
-        { "title": "Technological Advancement", "description": "Examining how the 'Pigs in Space' segment portrays technological advancements and their impact on society.", "path": "instruction/technological-advancement/technological-advancement.md", "type": "instruction", "state": "stub" },
-        { "title": "The Role of the Expert", "description": "Analyzing Strangepork's role as an expert and how his expertise is valued (or not) by the other characters.", "path": "instruction/the-role-of-the-expert/the-role-of-the-expert.md", "type": "instruction", "state": "stub" },
-        { "title": "Science and Ethics", "description": "Exploring any ethical dilemmas presented by Strangepork's experiments or inventions.", "path": "instruction/science-and-ethics/science-and-ethics.md", "type": "instruction", "state": "stub" },
-         { "title": "Strangepork's Inventions", "description": "A catalog of Strangepork's notable inventions and their significance.", "path": "instruction/strangeporks-inventions/strangeporks-inventions.md", "type": "instruction", "state": "stub" },
-        { "title": "Strangepork's Communication Style", "description": "Analysing how Strangepork's communication style impacts his relationship with the other crew members.", "path": "instruction/strangeporks-communication-style/strangeporks-communication-style.md", "type": "instruction", "state": "stub" },
-        { "title": "The humor of science", "description": "Examining the humor behind the portrayal of science in Pigs in Space.", "path": "instruction/the-humor-of-science/the-humor-of-science.md", "type": "instruction", "state": "stub" },
-        { "title": "Mad Science", "description": "How does Strangepork embody the trope of the mad scientist?", "path": "instruction/mad-science/mad-science.md", "type": "instruction", "state": "stub" },
-        { "title": "Science and Pseudoscience", "description": "Examining the line between science and pseudoscience in Pigs in Space.", "path": "instruction/science-and-pseudoscience/science-and-pseudoscience.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Strangepork as a Scientist",
+          "type": "instruction",
+          "path": "instruction/strangepork-as-a-scientist/strangepork-as-a-scientist.md",
+          "id": "5ff9e547-c491-4439-817d-3a5555f3c7db",
+          "state": "stub",
+          "description": "Analyzing Strangepork's portrayal as a scientist and its connection to American perceptions of science."
+        },
+        {
+          "title": "Technological Advancement",
+          "type": "instruction",
+          "path": "instruction/technological-advancement/technological-advancement.md",
+          "id": "323728cb-fb58-4629-83a2-85b65462c313",
+          "state": "stub",
+          "description": "Examining how the 'Pigs in Space' segment portrays technological advancements and their impact on society."
+        },
+        {
+          "title": "The Role of the Expert",
+          "type": "instruction",
+          "path": "instruction/the-role-of-the-expert/the-role-of-the-expert.md",
+          "id": "cf7c1ea2-9d98-4bf7-80ab-bad6c40a6e06",
+          "state": "stub",
+          "description": "Analyzing Strangepork's role as an expert and how his expertise is valued (or not) by the other characters."
+        },
+        {
+          "title": "Science and Ethics",
+          "type": "instruction",
+          "path": "instruction/science-and-ethics/science-and-ethics.md",
+          "id": "661d04f9-9c63-4788-a8aa-df880859fd35",
+          "state": "stub",
+          "description": "Exploring any ethical dilemmas presented by Strangepork's experiments or inventions."
+        },
+        {
+          "title": "Strangepork's Inventions",
+          "type": "instruction",
+          "path": "instruction/strangeporks-inventions/strangeporks-inventions.md",
+          "id": "b0c4a18f-3d76-4a52-b9df-f5fa71303d33",
+          "state": "stub",
+          "description": "A catalog of Strangepork's notable inventions and their significance."
+        },
+        {
+          "title": "Strangepork's Communication Style",
+          "type": "instruction",
+          "path": "instruction/strangeporks-communication-style/strangeporks-communication-style.md",
+          "id": "e25ee8a1-0d0f-4637-aeef-8738474b6708",
+          "state": "stub",
+          "description": "Analysing how Strangepork's communication style impacts his relationship with the other crew members."
+        },
+        {
+          "title": "The humor of science",
+          "type": "instruction",
+          "path": "instruction/the-humor-of-science/the-humor-of-science.md",
+          "id": "f6643c1b-79f9-40e2-bd01-d28ac28180c5",
+          "state": "stub",
+          "description": "Examining the humor behind the portrayal of science in Pigs in Space."
+        },
+        {
+          "title": "Mad Science",
+          "type": "instruction",
+          "path": "instruction/mad-science/mad-science.md",
+          "id": "93dee3de-5b65-42aa-b4e1-c92d9e600d76",
+          "state": "stub",
+          "description": "How does Strangepork embody the trope of the mad scientist?"
+        },
+        {
+          "title": "Science and Pseudoscience",
+          "type": "instruction",
+          "path": "instruction/science-and-pseudoscience/science-and-pseudoscience.md",
+          "id": "dfa02552-c824-42c0-8edd-d1238b21002f",
+          "state": "stub",
+          "description": "Examining the line between science and pseudoscience in Pigs in Space."
+        }
       ]
     },
     {
       "title": "Intergalactic Encounters and Cultural Exchange",
-      "description": "This module examines the different alien species and planets encountered by the Swinetrek crew, analyzing how these encounters reflect American attitudes towards cultural exchange and the 'other'.",
       "topics": [
-        { "title": "Representations of Alien Cultures", "description": "Analyzing how different alien species are portrayed and what cultural stereotypes they might represent.", "path": "instruction/representations-of-alien-cultures/representations-of-alien-cultures.md", "type": "instruction", "state": "stub" },
-        { "title": "First Contact Scenarios", "description": "Examining how the Swinetrek crew handles first contact scenarios and what this reveals about American approaches to diplomacy and cultural understanding.", "path": "instruction/first-contact-scenarios/first-contact-scenarios.md", "type": "instruction", "state": "stub" },
-        { "title": "Language and Communication Barriers", "description": "Analyzing the challenges of intergalactic communication and how they are portrayed in the segment.", "path": "instruction/language-and-communication-barriers/language-and-communication-barriers.md", "type": "instruction", "state": "stub" },
-        { "title": "Cultural Misunderstandings", "description": "Exploring instances of cultural misunderstandings and their comedic (or serious) consequences.", "path": "instruction/cultural-misunderstandings/cultural-misunderstandings.md", "type": "instruction", "state": "stub" },
-        { "title": "The Concept of the 'Other'", "description": "Analyzing how the 'Pigs in Space' segment portrays the concept of the 'other' and its implications for understanding cultural differences.", "path": "instruction/the-concept-of-the-other/the-concept-of-the-other.md", "type": "instruction", "state": "stub" },
-        { "title": "Parodies of Science Fiction", "description": "Examining the science fiction parodies presented in Pigs in Space and what they reveal about American culture.", "path": "instruction/parodies-of-science-fiction/parodies-of-science-fiction.md", "type": "instruction", "state": "stub" },
-        { "title": "Space as a Neutral Zone", "description": "Examining space as a neutral zone for cultural interaction.", "path": "instruction/space-as-a-neutral-zone/space-as-a-neutral-zone.md", "type": "instruction", "state": "stub" },
-        { "title": "Cultural Imperialism", "description": "Is there evidence of cultural imperialism in Pigs in Space?", "path": "instruction/cultural-imperialism/cultural-imperialism.md", "type": "instruction", "state": "stub" },
-        { "title": "Humor and Cultural Sensitivity", "description": "Examining the humor and cultural sensitivity in Pigs in Space.", "path": "instruction/humor-and-cultural-sensitivity/humor-and-cultural-sensitivity.md", "type": "instruction", "state": "stub" },
-        { "title": "Star Trek Parallels", "description": "Comparing the cultural representations in Pigs in Space to the cultural representations in Star Trek.", "path": "instruction/star-trek-parallels/star-trek-parallels.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Representations of Alien Cultures",
+          "type": "instruction",
+          "path": "instruction/representations-of-alien-cultures/representations-of-alien-cultures.md",
+          "id": "07c54d80-41b5-4966-ac99-5af517b51d13",
+          "state": "stub",
+          "description": "Analyzing how different alien species are portrayed and what cultural stereotypes they might represent."
+        },
+        {
+          "title": "First Contact Scenarios",
+          "type": "instruction",
+          "path": "instruction/first-contact-scenarios/first-contact-scenarios.md",
+          "id": "aca03a7d-3bf3-42e4-ae29-8a9af325c372",
+          "state": "stub",
+          "description": "Examining how the Swinetrek crew handles first contact scenarios and what this reveals about American approaches to diplomacy and cultural understanding."
+        },
+        {
+          "title": "Language and Communication Barriers",
+          "type": "instruction",
+          "path": "instruction/language-and-communication-barriers/language-and-communication-barriers.md",
+          "id": "984ca405-3ba5-44d0-a54c-ac34e7d5d072",
+          "state": "stub",
+          "description": "Analyzing the challenges of intergalactic communication and how they are portrayed in the segment."
+        },
+        {
+          "title": "Cultural Misunderstandings",
+          "type": "instruction",
+          "path": "instruction/cultural-misunderstandings/cultural-misunderstandings.md",
+          "id": "c1703ab3-1247-4f49-872d-0427c7b83e56",
+          "state": "stub",
+          "description": "Exploring instances of cultural misunderstandings and their comedic (or serious) consequences."
+        },
+        {
+          "title": "The Concept of the 'Other'",
+          "type": "instruction",
+          "path": "instruction/the-concept-of-the-other/the-concept-of-the-other.md",
+          "id": "85813882-d8b3-49e7-ab06-970fe91ffb99",
+          "state": "stub",
+          "description": "Analyzing how the 'Pigs in Space' segment portrays the concept of the 'other' and its implications for understanding cultural differences."
+        },
+        {
+          "title": "Parodies of Science Fiction",
+          "type": "instruction",
+          "path": "instruction/parodies-of-science-fiction/parodies-of-science-fiction.md",
+          "id": "dc7add66-58d5-4ffb-a3c2-8eb32d325fbb",
+          "state": "stub",
+          "description": "Examining the science fiction parodies presented in Pigs in Space and what they reveal about American culture."
+        },
+        {
+          "title": "Space as a Neutral Zone",
+          "type": "instruction",
+          "path": "instruction/space-as-a-neutral-zone/space-as-a-neutral-zone.md",
+          "id": "f88261ee-2497-4bde-9301-91cdf25cb63b",
+          "state": "stub",
+          "description": "Examining space as a neutral zone for cultural interaction."
+        },
+        {
+          "title": "Cultural Imperialism",
+          "type": "instruction",
+          "path": "instruction/cultural-imperialism/cultural-imperialism.md",
+          "id": "d6a72104-4aa4-4472-bbb9-fb54f39d82ea",
+          "state": "stub",
+          "description": "Is there evidence of cultural imperialism in Pigs in Space?"
+        },
+        {
+          "title": "Humor and Cultural Sensitivity",
+          "type": "instruction",
+          "path": "instruction/humor-and-cultural-sensitivity/humor-and-cultural-sensitivity.md",
+          "id": "8a585b21-ca34-48bc-969d-b2e35a8a12d1",
+          "state": "stub",
+          "description": "Examining the humor and cultural sensitivity in Pigs in Space."
+        },
+        {
+          "title": "Star Trek Parallels",
+          "type": "instruction",
+          "path": "instruction/star-trek-parallels/star-trek-parallels.md",
+          "id": "0618518f-b35f-4176-9e8f-a97f1c15f72a",
+          "state": "stub",
+          "description": "Comparing the cultural representations in Pigs in Space to the cultural representations in Star Trek."
+        }
       ]
     },
     {
       "title": "Satire and Social Commentary",
-      "description": "This module delves into the satirical elements of 'Pigs in Space,' analyzing how the segment uses humor to comment on American society, politics, and culture.",
       "topics": [
-        { "title": "The Use of Satire in Pigs in Space", "description": "Identifying and analyzing examples of satire in the segment.", "path": "instruction/the-use-of-satire-in-pigs-in-space/the-use-of-satire-in-pigs-in-space.md", "type": "instruction", "state": "stub" },
-        { "title": "Political Commentary", "description": "Examining any political commentary embedded within the 'Pigs in Space' storylines.", "path": "instruction/political-commentary/political-commentary.md", "type": "instruction", "state": "stub" },
-        { "title": "Social Issues Addressed", "description": "Identifying and analyzing any social issues that are satirized or commented upon in the segment.", "path": "instruction/social-issues-addressed/social-issues-addressed.md", "type": "instruction", "state": "stub" },
-        { "title": "Parody of Genre Conventions", "description": "Analyzing how 'Pigs in Space' parodies science fiction and other genre conventions.", "path": "instruction/parody-of-genre-conventions/parody-of-genre-conventions.md", "type": "instruction", "state": "stub" },
-        { "title": "The Role of Humor in Social Critique", "description": "Exploring how humor is used to deliver social critique and make audiences think critically.", "path": "instruction/the-role-of-humor-in-social-critique/the-role-of-humor-in-social-critique.md", "type": "instruction", "state": "stub" },
-        { "title": "Cultural Norms and Values", "description": "Examining how Pigs in Space reflects and challenges cultural norms and values.", "path": "instruction/cultural-norms-and-values/cultural-norms-and-values.md", "type": "instruction", "state": "stub" },
-        { "title": "Target Audiences", "description": "Who was the target audience for Pigs in Space?", "path": "instruction/target-audiences/target-audiences.md", "type": "instruction", "state": "stub" },
-        { "title": "The enduring legacy of satire", "description": "Examining why satire is still effective in modern society.", "path": "instruction/the-enduring-legacy-of-satire/the-enduring-legacy-of-satire.md", "type": "instruction", "state": "stub" },
-        { "title": "The Muppets as Social Commentators", "description": "Examining the role of the Muppets in creating social commentary.", "path": "instruction/the-muppets-as-social-commentators/the-muppets-as-social-commentators.md", "type": "instruction", "state": "stub" },
-        { "title": "Satire and the Status Quo", "description": "How satire challenges the status quo.", "path": "instruction/satire-and-the-status-quo/satire-and-the-status-quo.md", "type": "instruction", "state": "stub" },
-        { "title": "The limits of satire", "description": "When is satire not appropriate?", "path": "instruction/the-limits-of-satire/the-limits-of-satire.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "The Use of Satire in Pigs in Space",
+          "type": "instruction",
+          "path": "instruction/the-use-of-satire-in-pigs-in-space/the-use-of-satire-in-pigs-in-space.md",
+          "id": "20e88683-fd15-4b55-b432-c3665eb58453",
+          "state": "stub",
+          "description": "Identifying and analyzing examples of satire in the segment."
+        },
+        {
+          "title": "Political Commentary",
+          "type": "instruction",
+          "path": "instruction/political-commentary/political-commentary.md",
+          "id": "109fcf6e-0278-4e21-8a3f-c9174827a058",
+          "state": "stub",
+          "description": "Examining any political commentary embedded within the 'Pigs in Space' storylines."
+        },
+        {
+          "title": "Social Issues Addressed",
+          "type": "instruction",
+          "path": "instruction/social-issues-addressed/social-issues-addressed.md",
+          "id": "5b8351ef-922f-46d6-993f-5099e91c8056",
+          "state": "stub",
+          "description": "Identifying and analyzing any social issues that are satirized or commented upon in the segment."
+        },
+        {
+          "title": "Parody of Genre Conventions",
+          "type": "instruction",
+          "path": "instruction/parody-of-genre-conventions/parody-of-genre-conventions.md",
+          "id": "5e08b9cd-eddf-4388-8693-cb75bea04d9e",
+          "state": "stub",
+          "description": "Analyzing how 'Pigs in Space' parodies science fiction and other genre conventions."
+        },
+        {
+          "title": "The Role of Humor in Social Critique",
+          "type": "instruction",
+          "path": "instruction/the-role-of-humor-in-social-critique/the-role-of-humor-in-social-critique.md",
+          "id": "45fa9faf-1a59-4aa2-86fc-6836d6d94c55",
+          "state": "stub",
+          "description": "Exploring how humor is used to deliver social critique and make audiences think critically."
+        },
+        {
+          "title": "Cultural Norms and Values",
+          "type": "instruction",
+          "path": "instruction/cultural-norms-and-values/cultural-norms-and-values.md",
+          "id": "f11df334-69a4-4f6c-8472-f98da915a5d2",
+          "state": "stub",
+          "description": "Examining how Pigs in Space reflects and challenges cultural norms and values."
+        },
+        {
+          "title": "Target Audiences",
+          "type": "instruction",
+          "path": "instruction/target-audiences/target-audiences.md",
+          "id": "d475a4bb-eeec-4232-a46e-8bd87bd80d30",
+          "state": "stub",
+          "description": "Who was the target audience for Pigs in Space?"
+        },
+        {
+          "title": "The enduring legacy of satire",
+          "type": "instruction",
+          "path": "instruction/the-enduring-legacy-of-satire/the-enduring-legacy-of-satire.md",
+          "id": "3516de8d-dacc-415b-a610-01f6773721d6",
+          "state": "stub",
+          "description": "Examining why satire is still effective in modern society."
+        },
+        {
+          "title": "The Muppets as Social Commentators",
+          "type": "instruction",
+          "path": "instruction/the-muppets-as-social-commentators/the-muppets-as-social-commentators.md",
+          "id": "24ffd292-2e06-4609-be69-c3c75bb8a0c6",
+          "state": "stub",
+          "description": "Examining the role of the Muppets in creating social commentary."
+        },
+        {
+          "title": "Satire and the Status Quo",
+          "type": "instruction",
+          "path": "instruction/satire-and-the-status-quo/satire-and-the-status-quo.md",
+          "id": "f4653575-4e00-4154-9b6e-ed8e4da80efa",
+          "state": "stub",
+          "description": "How satire challenges the status quo."
+        },
+        {
+          "title": "The limits of satire",
+          "type": "instruction",
+          "path": "instruction/the-limits-of-satire/the-limits-of-satire.md",
+          "id": "bf008f0b-7e33-495d-bb67-4b352cb9078f",
+          "state": "stub",
+          "description": "When is satire not appropriate?"
+        }
       ]
     },
     {
       "title": "Pigs in Space and American Media",
-      "description": "This module explores the 'Pigs in Space' segment within the broader context of American media, analyzing its influence and its reflection of media trends and practices.",
       "topics": [
-        { "title": "Pigs in Space as a Product of Its Time", "description": "Analyzing how the segment reflects the media landscape and cultural trends of the late 1970s and early 1980s.", "path": "instruction/pigs-in-space-as-a-product-of-its-time/pigs-in-space-as-a-product-of-its-time.md", "type": "instruction", "state": "stub" },
-        { "title": "The Influence of Science Fiction on Television", "description": "Examining the influence of science fiction shows like 'Star Trek' on 'Pigs in Space'.", "path": "instruction/the-influence-of-science-fiction-on-television/the-influence-of-science-fiction-on-television.md", "type": "instruction", "state": "stub" },
-        { "title": "The Muppets' Impact on Television", "description": "Analyzing the broader impact of 'The Muppet Show' on television and its influence on other shows.", "path": "instruction/the-muppets-impact-on-television/the-muppets-impact-on-television.md", "type": "instruction", "state": "stub" },
-        { "title": "Media Representation and Stereotypes", "description": "Analyzing how 'Pigs in Space' reinforces or challenges media stereotypes.", "path": "instruction/media-representation-and-stereotypes/media-representation-and-stereotypes.md", "type": "instruction", "state": "stub" },
-        { "title": "The Role of Humor in Media Consumption", "description": "Exploring how humor influences media consumption and audience engagement.", "path": "instruction/the-role-of-humor-in-media-consumption/the-role-of-humor-in-media-consumption.md", "type": "instruction", "state": "stub" },
-        { "title": "Pigs in Space and Merchandising", "description": "Examining the merchandising surrounding Pigs in Space and The Muppets.", "path": "instruction/pigs-in-space-and-merchandising/pigs-in-space-and-merchandising.md", "type": "instruction", "state": "stub" },
-        { "title": "The evolution of media", "description": "How has media changed since the debut of Pigs in Space?", "path": "instruction/the-evolution-of-media/the-evolution-of-media.md", "type": "instruction", "state": "stub" },
-        { "title": "Nostalgia and media", "description": "Why do we feel nostalgia for certain media?", "path": "instruction/nostalgia-and-media/nostalgia-and-media.md", "type": "instruction", "state": "stub" },
-        { "title": "The role of media in cultural identity", "description": "How does media contribute to cultural identity?", "path": "instruction/the-role-of-media-in-cultural-identity/the-role-of-media-in-cultural-identity.md", "type": "instruction", "state": "stub" },
-        { "title": "The power of television", "description": "Examining the power that television has to influence society.", "path": "instruction/the-power-of-television/the-power-of-television.md", "type": "instruction", "state": "stub" },
-        { "title": "The future of media", "description": "What is the future of media?", "path": "instruction/the-future-of-media/the-future-of-media.md", "type": "instruction", "state": "stub" },
-        { "title": "Pigs in Space and digital media", "description": "Examining how digital media has impacted Pigs in Space.", "path": "instruction/pigs-in-space-and-digital-media/pigs-in-space-and-digital-media.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Pigs in Space as a Product of Its Time",
+          "type": "instruction",
+          "path": "instruction/pigs-in-space-as-a-product-of-its-time/pigs-in-space-as-a-product-of-its-time.md",
+          "id": "e26c5fa2-1830-4341-a5ed-bcc7b7e3696d",
+          "state": "stub",
+          "description": "Analyzing how the segment reflects the media landscape and cultural trends of the late 1970s and early 1980s."
+        },
+        {
+          "title": "The Influence of Science Fiction on Television",
+          "type": "instruction",
+          "path": "instruction/the-influence-of-science-fiction-on-television/the-influence-of-science-fiction-on-television.md",
+          "id": "9734db2a-4a08-4eae-9bb4-89429ce4c22b",
+          "state": "stub",
+          "description": "Examining the influence of science fiction shows like 'Star Trek' on 'Pigs in Space'."
+        },
+        {
+          "title": "The Muppets' Impact on Television",
+          "type": "instruction",
+          "path": "instruction/the-muppets-impact-on-television/the-muppets-impact-on-television.md",
+          "id": "9a12221e-190d-469a-ba51-b648177e9e55",
+          "state": "stub",
+          "description": "Analyzing the broader impact of 'The Muppet Show' on television and its influence on other shows."
+        },
+        {
+          "title": "Media Representation and Stereotypes",
+          "type": "instruction",
+          "path": "instruction/media-representation-and-stereotypes/media-representation-and-stereotypes.md",
+          "id": "2a8b1dff-6928-450a-9657-1efdcb63ba56",
+          "state": "stub",
+          "description": "Analyzing how 'Pigs in Space' reinforces or challenges media stereotypes."
+        },
+        {
+          "title": "The Role of Humor in Media Consumption",
+          "type": "instruction",
+          "path": "instruction/the-role-of-humor-in-media-consumption/the-role-of-humor-in-media-consumption.md",
+          "id": "1bf1cb45-c635-4dc9-a4a0-ab60178f81a6",
+          "state": "stub",
+          "description": "Exploring how humor influences media consumption and audience engagement."
+        },
+        {
+          "title": "Pigs in Space and Merchandising",
+          "type": "instruction",
+          "path": "instruction/pigs-in-space-and-merchandising/pigs-in-space-and-merchandising.md",
+          "id": "59528c68-329b-4c54-9865-4672f064d7b3",
+          "state": "stub",
+          "description": "Examining the merchandising surrounding Pigs in Space and The Muppets."
+        },
+        {
+          "title": "The evolution of media",
+          "type": "instruction",
+          "path": "instruction/the-evolution-of-media/the-evolution-of-media.md",
+          "id": "eca100f5-b8a4-4044-bf5b-6e1a219b708a",
+          "state": "stub",
+          "description": "How has media changed since the debut of Pigs in Space?"
+        },
+        {
+          "title": "Nostalgia and media",
+          "type": "instruction",
+          "path": "instruction/nostalgia-and-media/nostalgia-and-media.md",
+          "id": "22230a2f-c2cf-40bb-a25c-f7feb398b764",
+          "state": "stub",
+          "description": "Why do we feel nostalgia for certain media?"
+        },
+        {
+          "title": "The role of media in cultural identity",
+          "type": "instruction",
+          "path": "instruction/the-role-of-media-in-cultural-identity/the-role-of-media-in-cultural-identity.md",
+          "id": "dfc2762a-2138-4413-9fad-3566f72fd3cd",
+          "state": "stub",
+          "description": "How does media contribute to cultural identity?"
+        },
+        {
+          "title": "The power of television",
+          "type": "instruction",
+          "path": "instruction/the-power-of-television/the-power-of-television.md",
+          "id": "e8e7cd36-5b2e-4f24-86bd-a14c52fe1c52",
+          "state": "stub",
+          "description": "Examining the power that television has to influence society."
+        },
+        {
+          "title": "The future of media",
+          "type": "instruction",
+          "path": "instruction/the-future-of-media/the-future-of-media.md",
+          "id": "ec0fda8e-eb1c-4223-9f1b-43461cedf7c6",
+          "state": "stub",
+          "description": "What is the future of media?"
+        },
+        {
+          "title": "Pigs in Space and digital media",
+          "type": "instruction",
+          "path": "instruction/pigs-in-space-and-digital-media/pigs-in-space-and-digital-media.md",
+          "id": "356f342a-80d6-4afb-a559-1b8b2fa0975a",
+          "state": "stub",
+          "description": "Examining how digital media has impacted Pigs in Space."
+        }
       ]
     },
     {
       "title": "Cultural Relativism and Ethical Considerations",
-      "description": "This module explores the concept of cultural relativism in the context of 'Pigs in Space,' examining the ethical considerations that arise when encountering different cultures and value systems.",
       "topics": [
-        { "title": "Defining Cultural Relativism", "description": "Explaining the concept of cultural relativism and its implications for understanding different cultures.", "path": "instruction/defining-cultural-relativism/defining-cultural-relativism.md", "type": "instruction", "state": "stub" },
-        { "title": "Ethnocentrism vs. Cultural Relativism", "description": "Contrasting ethnocentrism with cultural relativism and the importance of avoiding ethnocentric biases.", "path": "instruction/ethnocentrism-vs-cultural-relativism/ethnocentrism-vs-cultural-relativism.md", "type": "instruction", "state": "stub" },
-        { "title": "Ethical Dilemmas in Intercultural Encounters", "description": "Analyzing ethical dilemmas that arise when encountering cultures with different values and norms.", "path": "instruction/ethical-dilemmas-in-intercultural-encounters/ethical-dilemmas-in-intercultural-encounters.md", "type": "instruction", "state": "stub" },
-        { "title": "Universal Human Rights vs. Cultural Practices", "description": "Exploring the tension between universal human rights and culturally specific practices.", "path": "instruction/universal-human-rights-vs-cultural-practices/universal-human-rights-vs-cultural-practices.md", "type": "instruction", "state": "stub" },
-        { "title": "Applying Cultural Relativism to 'Pigs in Space'", "description": "Analyzing specific episodes of 'Pigs in Space' through the lens of cultural relativism.", "path": "instruction/applying-cultural-relativism-to-pigs-in-space/applying-cultural-relativism-to-pigs-in-space.md", "type": "instruction", "state": "stub" },
-        { "title": "Moral judgements", "description": "Examining how moral judgements impact our perception of other cultures.", "path": "instruction/moral-judgements/moral-judgements.md", "type": "instruction", "state": "stub" },
-        { "title": "Bias in cultural representation", "description": "How does bias impact cultural representation?", "path": "instruction/bias-in-cultural-representation/bias-in-cultural-representation.md", "type": "instruction", "state": "stub" },
-        { "title": "The dangers of generalization", "description": "Examining the dangers of making generalizations about other cultures.", "path": "instruction/the-dangers-of-generalization/the-dangers-of-generalization.md", "type": "instruction", "state": "stub" },
-        { "title": "Empathy and understanding", "description": "How can empathy and understanding help us navigate cultural differences?", "path": "instruction/empathy-and-understanding/empathy-and-understanding.md", "type": "instruction", "state": "stub" },
-        { "title": "The role of context", "description": "How does context impact our understanding of other cultures?", "path": "instruction/the-role-of-context/the-role-of-context.md", "type": "instruction", "state": "stub" },
-        { "title": "Cultural appropriation", "description": "Examining the concept of cultural appropriation.", "path": "instruction/cultural-appropriation/cultural-appropriation.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Defining Cultural Relativism",
+          "type": "instruction",
+          "path": "instruction/defining-cultural-relativism/defining-cultural-relativism.md",
+          "id": "ae88426d-23f0-41fd-8113-3a48a198c0ea",
+          "state": "stub",
+          "description": "Explaining the concept of cultural relativism and its implications for understanding different cultures."
+        },
+        {
+          "title": "Ethnocentrism vs. Cultural Relativism",
+          "type": "instruction",
+          "path": "instruction/ethnocentrism-vs-cultural-relativism/ethnocentrism-vs-cultural-relativism.md",
+          "id": "ca5a9c6f-87ea-49c1-aeb8-5835f2d9c5bf",
+          "state": "stub",
+          "description": "Contrasting ethnocentrism with cultural relativism and the importance of avoiding ethnocentric biases."
+        },
+        {
+          "title": "Ethical Dilemmas in Intercultural Encounters",
+          "type": "instruction",
+          "path": "instruction/ethical-dilemmas-in-intercultural-encounters/ethical-dilemmas-in-intercultural-encounters.md",
+          "id": "17cebcb6-4ad9-41c2-96f3-0976c5e0cae0",
+          "state": "stub",
+          "description": "Analyzing ethical dilemmas that arise when encountering cultures with different values and norms."
+        },
+        {
+          "title": "Universal Human Rights vs. Cultural Practices",
+          "type": "instruction",
+          "path": "instruction/universal-human-rights-vs-cultural-practices/universal-human-rights-vs-cultural-practices.md",
+          "id": "5225ac63-4a47-4358-9fe1-0404258a4a3a",
+          "state": "stub",
+          "description": "Exploring the tension between universal human rights and culturally specific practices."
+        },
+        {
+          "title": "Applying Cultural Relativism to 'Pigs in Space'",
+          "type": "instruction",
+          "path": "instruction/applying-cultural-relativism-to-pigs-in-space/applying-cultural-relativism-to-pigs-in-space.md",
+          "id": "af73f803-965b-47da-b17d-880421aa8abc",
+          "state": "stub",
+          "description": "Analyzing specific episodes of 'Pigs in Space' through the lens of cultural relativism."
+        },
+        {
+          "title": "Moral judgements",
+          "type": "instruction",
+          "path": "instruction/moral-judgements/moral-judgements.md",
+          "id": "7c971c69-0189-412d-ba48-46d4be7c0013",
+          "state": "stub",
+          "description": "Examining how moral judgements impact our perception of other cultures."
+        },
+        {
+          "title": "Bias in cultural representation",
+          "type": "instruction",
+          "path": "instruction/bias-in-cultural-representation/bias-in-cultural-representation.md",
+          "id": "1a6beadf-e687-4547-828a-5b0ddbdd7cdf",
+          "state": "stub",
+          "description": "How does bias impact cultural representation?"
+        },
+        {
+          "title": "The dangers of generalization",
+          "type": "instruction",
+          "path": "instruction/the-dangers-of-generalization/the-dangers-of-generalization.md",
+          "id": "4d31fc4f-47e8-4872-8fe0-bb803598bab6",
+          "state": "stub",
+          "description": "Examining the dangers of making generalizations about other cultures."
+        },
+        {
+          "title": "Empathy and understanding",
+          "type": "instruction",
+          "path": "instruction/empathy-and-understanding/empathy-and-understanding.md",
+          "id": "39be037c-e835-47e5-be8e-d4042a78d4c2",
+          "state": "stub",
+          "description": "How can empathy and understanding help us navigate cultural differences?"
+        },
+        {
+          "title": "The role of context",
+          "type": "instruction",
+          "path": "instruction/the-role-of-context/the-role-of-context.md",
+          "id": "e0f635f1-cc27-453a-aa5d-1bbfdf253491",
+          "state": "stub",
+          "description": "How does context impact our understanding of other cultures?"
+        },
+        {
+          "title": "Cultural appropriation",
+          "type": "instruction",
+          "path": "instruction/cultural-appropriation/cultural-appropriation.md",
+          "id": "f41f2ca1-6642-4eea-8da7-a8f3d779e9ab",
+          "state": "stub",
+          "description": "Examining the concept of cultural appropriation."
+        }
       ]
     },
     {
       "title": "Capstone Project: Pigs in Space and Contemporary Issues",
-      "description": "In this final module, students will apply the concepts learned throughout the course to analyze a contemporary cultural issue through the lens of 'Pigs in Space'.",
       "topics": [
-        { "title": "Project Overview and Guidelines", "description": "Detailed explanation of the capstone project requirements and expectations.", "path": "instruction/project-overview-and-guidelines/project-overview-and-guidelines.md", "type": "instruction", "state": "stub" },
-        { "title": "Choosing a Contemporary Issue", "description": "Guidance on selecting a relevant and appropriate contemporary cultural issue.", "path": "instruction/choosing-a-contemporary-issue/choosing-a-contemporary-issue.md", "type": "instruction", "state": "stub" },
-        { "title": "Connecting Pigs in Space to the Issue", "description": "Strategies for drawing parallels between 'Pigs in Space' themes and the chosen contemporary issue.", "path": "instruction/connecting-pigs-in-space-to-the-issue/connecting-pigs-in-space-to-the-issue.md", "type": "instruction", "state": "stub" },
-        { "title": "Research and Analysis", "description": "Conducting research and analyzing the chosen issue from a cultural studies perspective.", "path": "instruction/research-and-analysis/research-and-analysis.md", "type": "instruction", "state": "stub" },
-        { "title": "Developing a Thesis Statement", "description": "Crafting a clear and concise thesis statement for the capstone project.", "path": "instruction/developing-a-thesis-statement/developing-a-thesis-statement.md", "type": "instruction", "state": "stub" },
-        { "title": "Structuring the Project", "description": "Guidance on structuring the capstone project effectively.", "path": "instruction/structuring-the-project/structuring-the-project.md", "type": "instruction", "state": "stub" },
-        { "title": "Presentation Skills", "description": "Tips and techniques for presenting the capstone project effectively.", "path": "instruction/presentation-skills/presentation-skills.md", "type": "instruction", "state": "stub" },
-        { "title": "Peer Review and Feedback", "description": "Providing and receiving constructive feedback on capstone projects.", "path": "instruction/peer-review-and-feedback/peer-review-and-feedback.md", "type": "instruction", "state": "stub" },
-        { "title": "Final Project Submission", "description": "Instructions for submitting the final capstone project.", "path": "instruction/final-project-submission/final-project-submission.md", "type": "instruction", "state": "stub" },
-        { "title": "Examples of Past Projects", "description": "Examining examples of successful capstone projects from previous courses.", "path": "instruction/examples-of-past-projects/examples-of-past-projects.md", "type": "instruction", "state": "stub" },
-        { "title": "Q&A Session", "description": "A question and answer session to address any remaining questions about the capstone project.", "path": "instruction/q-a-session/q-a-session.md", "type": "instruction", "state": "stub" }
+        {
+          "title": "Project Overview and Guidelines",
+          "type": "instruction",
+          "path": "instruction/project-overview-and-guidelines/project-overview-and-guidelines.md",
+          "id": "85f2ac87-2a21-44e5-9769-9d35a0a0e318",
+          "state": "stub",
+          "description": "Detailed explanation of the capstone project requirements and expectations."
+        },
+        {
+          "title": "Choosing a Contemporary Issue",
+          "type": "instruction",
+          "path": "instruction/choosing-a-contemporary-issue/choosing-a-contemporary-issue.md",
+          "id": "d789f5c0-dff4-4e57-92e4-4466fb3351a2",
+          "state": "stub",
+          "description": "Guidance on selecting a relevant and appropriate contemporary cultural issue."
+        },
+        {
+          "title": "Connecting Pigs in Space to the Issue",
+          "type": "instruction",
+          "path": "instruction/connecting-pigs-in-space-to-the-issue/connecting-pigs-in-space-to-the-issue.md",
+          "id": "f264497c-3d23-465a-8415-b389f3ec69da",
+          "state": "stub",
+          "description": "Strategies for drawing parallels between 'Pigs in Space' themes and the chosen contemporary issue."
+        },
+        {
+          "title": "Research and Analysis",
+          "type": "instruction",
+          "path": "instruction/research-and-analysis/research-and-analysis.md",
+          "id": "831c44f1-fabe-4534-913d-5c3ed054abec",
+          "state": "stub",
+          "description": "Conducting research and analyzing the chosen issue from a cultural studies perspective."
+        },
+        {
+          "title": "Developing a Thesis Statement",
+          "type": "instruction",
+          "path": "instruction/developing-a-thesis-statement/developing-a-thesis-statement.md",
+          "id": "b0cda031-249e-4f59-abed-e09d21a907e5",
+          "state": "stub",
+          "description": "Crafting a clear and concise thesis statement for the capstone project."
+        },
+        {
+          "title": "Structuring the Project",
+          "type": "instruction",
+          "path": "instruction/structuring-the-project/structuring-the-project.md",
+          "id": "b09b7037-3339-4eb5-9012-f80838c52c75",
+          "state": "stub",
+          "description": "Guidance on structuring the capstone project effectively."
+        },
+        {
+          "title": "Presentation Skills",
+          "type": "instruction",
+          "path": "instruction/presentation-skills/presentation-skills.md",
+          "id": "440c2dee-f080-4707-9081-e03a94f4b24a",
+          "state": "stub",
+          "description": "Tips and techniques for presenting the capstone project effectively."
+        },
+        {
+          "title": "Peer Review and Feedback",
+          "type": "instruction",
+          "path": "instruction/peer-review-and-feedback/peer-review-and-feedback.md",
+          "id": "6a4e2697-6f11-4868-bee6-92247cfa0673",
+          "state": "stub",
+          "description": "Providing and receiving constructive feedback on capstone projects."
+        },
+        {
+          "title": "Final Project Submission",
+          "type": "instruction",
+          "path": "instruction/final-project-submission/final-project-submission.md",
+          "id": "36595be7-444f-4897-b87d-ec1a74879785",
+          "state": "stub",
+          "description": "Instructions for submitting the final capstone project."
+        },
+        {
+          "title": "Examples of Past Projects",
+          "type": "instruction",
+          "path": "instruction/examples-of-past-projects/examples-of-past-projects.md",
+          "id": "19c050e6-fc1e-4171-a2d4-bc0285425f6a",
+          "state": "stub",
+          "description": "Examining examples of successful capstone projects from previous courses."
+        },
+        {
+          "title": "Q&A Session",
+          "type": "instruction",
+          "path": "instruction/q-a-session/q-a-session.md",
+          "id": "380a959f-8d56-41b1-924a-83ca6df1e383",
+          "state": "stub",
+          "description": "A question and answer session to address any remaining questions about the capstone project."
+        }
       ]
     }
   ]
